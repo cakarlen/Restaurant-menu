@@ -4,7 +4,26 @@ body {
 }
 
 nav {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3AB900;
+}
 
+nav > li{
+  float: left;
+}
+
+nav > li > a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+nav > li > a:hover{
+  background-color: #00C69A;
 }
 
 footer {
