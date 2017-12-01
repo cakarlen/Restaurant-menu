@@ -1,14 +1,20 @@
+
 body {
   font-family: 'Arial', helvetica, sans-serif;
-  /*background-color: #64bce4;*/
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #edd9b1;
 }
 
-nav {
-  list-style-type: none;
-  margin:0;
-  padding: 0;
+#topnav {
+  border: 2px solid;
+  font-size: 20px;
+  border-width: medium;
+  margin: auto;
+  padding-left: 16px;
+  list-style: none;
   overflow: hidden;
-  background-color: #3AB900;
+  background-color: #d6b471;
 }
 
 body{
@@ -16,68 +22,45 @@ body{
   margin-right: 100px;
 }
 
-nav > li{
+#topnav > li{
   float: left;
 }
 
-nav > li > a{
+#topnav > li > a{
   display: block;
-  color: white;
+  color: darkred;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 36px;
 }
 
-nav > li > a:hover{
+#topnav > li > a:hover{
   background-color: #00C69A;
 }
 
-dl dt{
-  font-size:12px;
+
+/* Menu */
+#menu{
+  padding: 20px;
+  margin-top: 10px;
+  border: 2px solid;
+  column-count: 2;
+}
+
+/* Appetizers */
+#apps-list dt{
+  font-size:16px;
   color: red;
 }
 
-dl dd{
-  font-size:10px;
+#apps-list dd{
+  font-size:12px;
   color: brown;
 }
 
+/* END Appetizers */
+
+/* END Menu */
+
 footer {
-  border-style: ridge;
-  text-align: center;
-}
-
-/*footer > h2 {
-  /
-}
-*/
-
-ul {
-  list-style-type: none;
-  list-style: none;
-  padding: 0;
-  width: 2000px;
-  margin: 0 auto;
-}
-
-/*
-table {
-*/
-
-#container {
-  background-color: white;
-}
-
-#feature {
-  text-align: center;
-}
-
-#logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-#Title {
   text-align: center;
 }
