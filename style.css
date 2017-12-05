@@ -1,21 +1,31 @@
 /* Main */
 body {
   font-family: 'Arial', helvetica, sans-serif;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
   background-color: #edd9b1;
   height: auto;
 }
 
 /* End Main */
 
+/* Header */
+#logo{
+  margin-left: 20px;
+}
+
+#title{
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+/* End Header */
 
 /* Navigation */
 #topnav {
   border: 2px solid;
   font-size: 20px;
   border-width: medium;
-  margin: auto;
   padding-left: 16px;
   list-style: none;
   overflow: hidden;
@@ -40,7 +50,7 @@ body {
 /* End Nav */
 
 /* main */
-.main{
+/*.main{
   background-color: #e5c37e;
   padding: 10px 20px;
   margin: 20px;
@@ -48,10 +58,38 @@ body {
   column-count: 1;
 }
 
+/* Section for Menu Items
 .section{
   display: inline-block;
   width: 360px;
   padding: 0px 20px;
+  column-count: 1;
+}*/
+
+/* Home */
+#main_content{
+  background-color: #e5c37e;
+  padding: 10px 20px;
+  margin: 20px;
+  border: 2px solid;
+  column-count: 1;
+}
+
+#aboutus{
+  font-size: 22px;
+}
+
+#aboutus h2{
+  font-size: 28px;
+}
+/* End Home */
+
+/* Menu */
+#menu{
+  background-color: #e5c37e;
+  padding: 10px 20px;
+  margin: 20px;
+  border: 2px solid;
   column-count: 1;
 }
 
@@ -61,13 +99,14 @@ body {
   background-color: blue;
 } */
 
+
 #apps-list dt{
   font-size:16px;
   color: red;
 }
 
 #apps-list dd{
-  font-size:12px;
+  font-size:14px;
   color: brown;
 }
 
@@ -162,7 +201,7 @@ body {
 }
 /* END Drinks */
 
-/* END main */
+/* END Menu */
 
 footer {
   text-align: center;
