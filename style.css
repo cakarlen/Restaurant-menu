@@ -1,0 +1,207 @@
+/* Main */
+body {
+  font-family: 'Arial', helvetica, sans-serif;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: #edd9b1;
+  height: auto;
+}
+
+/* End Main */
+
+/* Header */
+#logo{
+  margin-left: 20px;
+}
+
+#title{
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+/* End Header */
+
+/* Navigation */
+#topnav {
+  border: 2px solid;
+  font-size: 20px;
+  border-width: medium;
+  padding-left: 16px;
+  list-style: none;
+  overflow: hidden;
+  background-color: #d6b471;
+}
+
+#topnav > li{
+  float: left;
+}
+
+#topnav > li > a{
+  display: block;
+  color: darkred;
+  text-align: center;
+  padding: 14px 36px;
+}
+
+#topnav > li > a:hover{
+  background-color: #00C69A;
+}
+
+/* End Nav */
+
+/* main */
+/*.main{
+  background-color: #e5c37e;
+  padding: 10px 20px;
+  margin: 20px;
+  border: 2px solid;
+  column-count: 1;
+}
+/* Section for Menu Items
+.section{
+  display: inline-block;
+  width: 360px;
+  padding: 0px 20px;
+  column-count: 1;
+}*/
+
+/* Home */
+#main_content{
+  background-color: #e5c37e;
+  padding: 10px 20px;
+  margin: 20px;
+  border: 2px solid;
+  column-count: 1;
+}
+
+#aboutus{
+  font-size: 22px;
+}
+
+#aboutus h2{
+  font-size: 28px;
+}
+/* End Home */
+
+/* Menu */
+#menu{
+  background-color: #e5c37e;
+  padding: 10px 20px;
+  margin: 20px;
+  border: 2px solid;
+  column-count: 1;
+}
+
+/* Appetizers */
+
+/* #appetizers.section{
+  background-color: blue;
+} */
+
+
+#apps-list dt{
+  font-size:16px;
+  color: red;
+}
+
+#apps-list dd{
+  font-size:14px;
+  color: brown;
+}
+
+/* END Appetizers */
+
+/* Soups */
+#soup-list dt{
+  font-size:16px;
+  color: red;
+}
+
+#soup-list dd{
+  font-size:12px;
+  color: brown;
+}
+/* END Soups */
+
+/* Burgers */
+#burger-list dt{
+  font-size:16px;
+  color: red;
+}
+
+#burger-list dd{
+  font-size:12px;
+  color: brown;
+}
+/* END Burgers */
+
+/* Chicken */
+#chicken-list dt{
+  font-size:16px;
+  color: red;
+}
+
+#chicken-list dd{
+  font-size:12px;
+  color: brown;
+}
+/* END Chicken */
+
+/* Specials */
+#specials-list dt{
+  font-size:16px;
+  color: red;
+}
+
+#specials-list dd{
+  font-size:12px;
+  color: brown;
+}
+/* END Specials */
+
+/* Sides */
+
+#sides-list {
+  padding-left: 12px;
+}
+
+#sides-list dt{
+  font-size: 16px;
+  color: red;
+}
+
+#sides-list dd{
+
+  font-size: 12px;
+  color: brown;
+}
+
+/* Desserts */
+#dessert-list dt{
+  font-size:16px;
+  color: red;
+}
+
+#dessert-list dd{
+  font-size:12px;
+  color: brown;
+}
+/* END desserts */
+
+/* Drinks */
+#drink-list dt{
+  font-size:16px;
+  color: red;
+}
+
+#drink-list dd{
+  font-size:12px;
+  color: brown;
+}
+/* END Drinks */
+
+/* END Menu */
+
+footer {
+  text-align: center;
+}
