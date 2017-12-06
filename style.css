@@ -71,6 +71,16 @@ body {
   color: brown;
 }
 
+#entree-list dt{
+  font-size: 16px;
+  color:red;
+}
+
+#entree-list dd{
+  font-size: 12px;
+  color: brown;
+}
+
 /* END Appetizers */
 
 /* Soups */
