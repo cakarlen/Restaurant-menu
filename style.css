@@ -6,8 +6,16 @@ body {
   background-color: #edd9b1;
   height: auto;
 }
-
 /* End Main */
+
+/* Header */
+
+
+header > h1{
+  margin-left: 250px;
+}
+
+/* End Header */
 
 
 /* Navigation */
@@ -40,7 +48,7 @@ body {
 /* End Nav */
 
 /* main */
-.main{
+#main{
   background-color: #e5c37e;
   padding: 10px 20px;
   margin: 20px;
